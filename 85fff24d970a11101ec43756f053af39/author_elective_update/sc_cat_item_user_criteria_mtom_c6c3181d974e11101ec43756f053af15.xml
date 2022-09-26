@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Create To Do Item ">71de48d5974e11101ec43756f053af0e</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-19 00:38:38</sys_created_on>
+        <sys_id>c6c3181d974e11101ec43756f053af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create To Do Item .Any User</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c6c3181d974e11101ec43756f053af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-19 00:38:38</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To do">85fff24d970a11101ec43756f053af39</application>
+        <file_path/>
+        <instance_id>8bfc88f0dbc4f850c6e711f8489619e0</instance_id>
+        <instance_name>dev114055</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_c6c3181d974e11101ec43756f053af15</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create To Do Item ">71de48d5974e11101ec43756f053af0e</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-19 00:38:38</sys_created_on><sys_id>c6c3181d974e11101ec43756f053af15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create To Do Item .Any User</sys_name><sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package><sys_policy/><sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_c6c3181d974e11101ec43756f053af15</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-19 00:38:38</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1605020936</payload_hash>
+        <record_name>Create To Do Item .Any User</record_name>
+        <reverted_from/>
+        <source>09fff24d970a11101ec43756f053af3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-19 00:38:38</sys_created_on>
+        <sys_id>82c3181d974e11101ec43756f053af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183532ec7e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-19 00:38:38</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>0ac3181d9c4e11106d338d8c1754b717</update_guid>
+        <update_guid_history>0ac3181d9c4e11106d338d8c1754b717:1605020936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create To Do Item .Any User">6c145c1d974e11101ec43756f053af4b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-19 00:39:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>150a2b6d56d2444bae22e8a929d63381</sys_id>
+        <sys_metadata>c6c3181d974e11101ec43756f053af15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create To Do Item .Any User</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_scope_delete display_value="">6f536d8c021b486299497e5715d87384</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c6c3181d974e11101ec43756f053af15</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_c6c3181d974e11101ec43756f053af15">82c3181d974e11101ec43756f053af18</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-19 00:39:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

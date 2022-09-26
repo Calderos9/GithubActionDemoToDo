@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="To Do Project" max_length="40" name="x_874495_to_do_to_do_project" sizeclass="2" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="2" display="true" label="Project" max_length="40" name="project" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Home" sequence="0" value="Home"/>
+                <element inactive_on_update="false" label="Work" sequence="1" value="Work"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

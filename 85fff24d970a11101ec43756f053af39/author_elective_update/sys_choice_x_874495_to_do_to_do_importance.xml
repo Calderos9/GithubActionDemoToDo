@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="importance" table="x_874495_to_do_to_do" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>importance</element>
+            <name>x_874495_to_do_to_do</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-18 19:41:25</sys_created_on>
+            <sys_id>14cf4b0d974a11101ec43756f053af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>importance</sys_name>
+            <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+            <sys_update_name>sys_choice_x_874495_to_do_to_do_importance</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-18 19:41:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>importance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not important</label>
+            <language>en</language>
+            <name>x_874495_to_do_to_do</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-18 19:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dccf4b0d974a11101ec43756f053af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-18 19:41:25</sys_updated_on>
+            <value>not_important</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>importance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Important</label>
+            <language>en</language>
+            <name>x_874495_to_do_to_do</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-18 19:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ccf4b0d974a11101ec43756f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-18 19:41:25</sys_updated_on>
+            <value>important</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>importance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very important</label>
+            <language>en</language>
+            <name>x_874495_to_do_to_do</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-18 19:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98cf4b0d974a11101ec43756f053af3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-18 19:41:25</sys_updated_on>
+            <value>very_important</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

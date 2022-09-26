@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition/>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <name>To do - Workspace Search</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-19 00:49:31</sys_created_on>
+        <sys_id>2946d0ddf54e1110285cc16118d83b39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To do - Workspace Search</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_update_name>sys_search_context_config_2946d0ddf54e1110285cc16118d83b39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-19 00:49:31</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=2946d0ddf54e1110285cc16118d83b39"/>
+</record_update>

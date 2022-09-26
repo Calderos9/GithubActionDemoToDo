@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description>Client-side logic for Angular App.</description>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_874495_to_do.angular_app_client_logic</name>
+        <script><![CDATA[angular.module('angularapp').controller('AngularAppCtrl', function($scope){
+	
+	$scope.myVar='';
+	$scope.i=0;
+	
+	$scope.clearTxt = function(){
+		$scope.myVar = '';
+		$scope.i++;
+		alert("The myVar value was cleared " + $scope.i + " times by " + g_user.userName + ".");
+	};
+});]]></script>
+        <script_name>angular_app_client_logic</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 21:32:52</sys_created_on>
+        <sys_id>9eeb313d970611101ec43756f053afbe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_874495_to_do.angular_app_client_logic</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_update_name>sys_ui_script_9eeb313d970611101ec43756f053afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 21:39:25</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To do">85fff24d970a11101ec43756f053af39</application>
+        <file_path/>
+        <instance_id>8bfc88f0dbc4f850c6e711f8489619e0</instance_id>
+        <instance_name>dev114055</instance_name>
+        <name>sys_ui_script_9eeb313d970611101ec43756f053afbe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;Client-side logic for Angular App.&lt;/description&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_874495_to_do.angular_app_client_logic&lt;/name&gt;&lt;script&gt;&lt;![CDATA[angular.module('angularapp').controller('AngularAppCtrl', function($scope){
+	
+	$scope.myVar='';
+	$scope.i=0;
+	
+	$scope.clearTxt = function(){
+		$scope.myVar = '';
+		$scope.i++;
+		alert("The myVar value was cleared " + $scope.i + " times by " + g_user.userName + ".");
+	};
+});]]&gt;&lt;/script&gt;&lt;script_name&gt;angular_app_client_logic&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-20 21:32:52&lt;/sys_created_on&gt;&lt;sys_id&gt;9eeb313d970611101ec43756f053afbe&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_874495_to_do.angular_app_client_logic&lt;/sys_name&gt;&lt;sys_package display_value="To do" source="x_874495_to_do"&gt;85fff24d970a11101ec43756f053af39&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="To do"&gt;85fff24d970a11101ec43756f053af39&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_9eeb313d970611101ec43756f053afbe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-20 21:39:25&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-790132410</payload_hash>
+        <record_name>x_874495_to_do.angular_app_client_logic</record_name>
+        <reverted_from/>
+        <source>09fff24d970a11101ec43756f053af3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 21:39:25</sys_created_on>
+        <sys_id>94fdfd7d970611101ec43756f053af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1835cd76e870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 21:39:25</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>dcfdfd7da60611101eb2fe4e8ea4db6e</update_guid>
+        <update_guid_history>dcfdfd7da60611101eb2fe4e8ea4db6e:-790132410,b7edf57d49061110c6035c1f4ea11136:-1535026518,c1edf93d4c06111014297e2d11335c91:-243914820,d52db1f9f00611101cb2d5cc222ed7d2:1592805531,9c7cb9f90b061110cffee96d02c0482c:2055180045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 21:43:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>8646c072a440402890e92babab42d440</sys_id>
+        <sys_metadata>9eeb313d970611101ec43756f053afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_874495_to_do.angular_app_client_logic</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_scope_delete display_value="">6f536d8c021b486299497e5715d87384</sys_scope_delete>
+        <sys_update_name>sys_ui_script_9eeb313d970611101ec43756f053afbe</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_9eeb313d970611101ec43756f053afbe">94fdfd7d970611101ec43756f053af6f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 21:43:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
