@@ -20,9 +20,9 @@ jobs:
       with:
         versionFormat: detect
       env:
-        snowUsername: ${{ secrets.NOW_USERNAME }}
-        snowPassword: ${{ secrets.NOW_PASSWORD }}
-        snowSourceInstance: ${{ secrets.NOW_DEV_INSTANCE }}
+        snowUsername: ${{ secrets.SN_USERNAME }}
+        snowPassword: ${{ secrets.SN_PASSWORD }}
+        snowSourceInstance: ${{ secrets.SN_DEV_INSTANCE }}
         appSysID: ${{ secrets.APP_SYS_ID }}
           
     - name: Create Tag in repository
@@ -38,8 +38,8 @@ jobs:
       with:
         version: ${{ steps.sncicd-publish-app.outputs.newVersion }}
       env:
-        snowUsername: ${{ secrets.NOW_USERNAME }}
-        snowPassword: ${{ secrets.NOW_PASSWORD }}
-        snowInstallInstance: ${{ secrets.NOW_TEST_INSTANCE }}
+        snowUsername: ${{ secrets.SN_USERNAME }}
+        snowPassword: ${{ secrets.SN_PASSWORD }}
+        snowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
         appSysID: ${{ secrets.APP_SYS_ID }}
         appScope: ${{ secrets.APP_SCOPE }}
