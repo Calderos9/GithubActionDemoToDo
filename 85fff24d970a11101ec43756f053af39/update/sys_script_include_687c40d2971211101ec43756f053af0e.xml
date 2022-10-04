@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_874495_to_do.feature_1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script that does something</description>
+        <name>feature_1</name>
+        <script><![CDATA[var feature_1 = Class.create();
+feature_1.prototype = {
+    initialize: function() {
+    },
+	//Do something amazing
+    type: 'feature_1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-04 12:57:17</sys_created_on>
+        <sys_id>687c40d2971211101ec43756f053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_1</sys_name>
+        <sys_package display_value="To do" source="x_874495_to_do">85fff24d970a11101ec43756f053af39</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="To do">85fff24d970a11101ec43756f053af39</sys_scope>
+        <sys_update_name>sys_script_include_687c40d2971211101ec43756f053af0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-04 12:57:17</sys_updated_on>
+    </sys_script_include>
+</record_update>
